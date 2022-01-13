@@ -2,10 +2,10 @@
     "name": "discordbotlist",
     "version": "3.0.0",
     "description": "A discord bot list.",
-    "main": "src/index.js",
+    "main": "index.js",
     "scripts": {
-        "start": "node src/index.js",
-        "devStart": "nodemon src/index.js"
+        "start": "node index.js",
+        "devStart": "index.js"
     },
     "dependencies": {
         "body-parser": "1.19.0",
@@ -35,10 +35,10 @@
     },
     "_moduleAliases": {
         "@root": ".",
-        "@bot": "./src/bot",
-        "@utils": "./src/utils",
-        "@routes": "./src/routes",
-        "@models": "./src/models",
-        "@structures": "./src/structures"
+        "@bot": "bot",
+        "@utils": "utils",
+        "@routes": "routes",
+        "@models": "models",
+        "@structures": "structures"
     }
 }
